@@ -373,7 +373,7 @@ func TestNullHeaderValue(t *testing.T) {
 }
 
 // Test for bug:
-// https://github.com/gopro/go-jose/issues/157
+// https://github.com/gopro/go-jose.v2/issues/157
 func TestEmbedJWKBug(t *testing.T) {
 	signerKey := SigningKey{
 		Key: &JSONWebKey{

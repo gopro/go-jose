@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"gopkg.in/square/go-jose.v2/json"
+	"gopkg.in/gopro/go-jose.v2/json"
 
 	"github.com/stretchr/testify/assert"
 )

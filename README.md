@@ -27,7 +27,7 @@ The implementation follows the
 Tables of supported algorithms are shown below. The library supports both
 the compact and full serialization formats, and has optional support for
 multiple recipients. It also comes with a small command-line utility
-([`jose-util`](https://github.com/gopro/go-jose/tree/v2/jose-util))
+([`jose-util`](https://github.com/gopro/go-jose.v2/tree/v2/jose-util))
 for dealing with JOSE messages in a shell.
 
 **Note**: We use a forked version of the `encoding/json` package from the Go
@@ -115,6 +115,6 @@ allows attaching a key id.
 
 Examples can be found in the Godoc
 reference for this package. The
-[`jose-util`](https://github.com/gopro/go-jose/tree/v2/jose-util)
+[`jose-util`](https://github.com/gopro/go-jose.v2/tree/v2/jose-util)
 subdirectory also contains a small command-line utility which might be useful
 as an example.

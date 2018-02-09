@@ -29,8 +29,8 @@ import (
 	"math/big"
 
 	"golang.org/x/crypto/ed25519"
-	"gopkg.in/square/go-jose.v2/cipher"
-	"gopkg.in/square/go-jose.v2/json"
+	"gopkg.in/gopro/go-jose.v2/cipher"
+	"gopkg.in/gopro/go-jose.v2/json"
 )
 
 // A generic RSA-based encrypter/verifier
