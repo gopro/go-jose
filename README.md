@@ -1,4 +1,4 @@
-# Go JOSE 
+# Go JOSE
 
 [![godoc](http://img.shields.io/badge/godoc-version_1-blue.svg?style=flat)](https://godoc.org/gopkg.in/square/go-jose.v1)
 [![godoc](http://img.shields.io/badge/godoc-version_2-blue.svg?style=flat)](https://godoc.org/gopkg.in/square/go-jose.v2)
@@ -27,7 +27,7 @@ The implementation follows the
 Tables of supported algorithms are shown below. The library supports both
 the compact and full serialization formats, and has optional support for
 multiple recipients. It also comes with a small command-line utility
-([`jose-util`](https://github.com/square/go-jose/tree/v2/jose-util))
+([`jose-util`](https://github.com/gopro/go-jose/tree/v2/jose-util))
 for dealing with JOSE messages in a shell.
 
 **Note**: We use a forked version of the `encoding/json` package from the Go
@@ -52,7 +52,7 @@ The interface for [go-jose.v1](https://gopkg.in/square/go-jose.v1) will remain
 backwards compatible. No new feature development will take place on the `v1` branch,
 however bug fixes and security fixes will be backported.
 
-The interface for [go-jose.v2](https://gopkg.in/square/go-jose.v2) is mostly 
+The interface for [go-jose.v2](https://gopkg.in/square/go-jose.v2) is mostly
 stable, but we suggest pinning to a particular revision for now as we still reserve
 the right to make changes. New feature development happens on this branch.
 
@@ -89,7 +89,7 @@ standard where possible. The Godoc reference has a list of constants.
  Content encryption         | Algorithm identifier(s)
  :------------------------- | :------------------------------
  AES-CBC+HMAC               | A128CBC-HS256, A192CBC-HS384, A256CBC-HS512
- AES-GCM                    | A128GCM, A192GCM, A256GCM 
+ AES-GCM                    | A128GCM, A192GCM, A256GCM
 
  Compression                | Algorithm identifiers(s)
  :------------------------- | -------------------------------
@@ -115,6 +115,6 @@ allows attaching a key id.
 
 Examples can be found in the Godoc
 reference for this package. The
-[`jose-util`](https://github.com/square/go-jose/tree/v2/jose-util)
+[`jose-util`](https://github.com/gopro/go-jose/tree/v2/jose-util)
 subdirectory also contains a small command-line utility which might be useful
 as an example.
