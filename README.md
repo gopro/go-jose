@@ -1,7 +1,7 @@
 # Go JOSE
 
-[![godoc](http://img.shields.io/badge/godoc-version_1-blue.svg?style=flat)](https://godoc.org/gopkg.in/square/go-jose.v1)
-[![godoc](http://img.shields.io/badge/godoc-version_2-blue.svg?style=flat)](https://godoc.org/gopkg.in/square/go-jose.v2)
+[![godoc](http://img.shields.io/badge/godoc-version_1-blue.svg?style=flat)](https://godoc.org/gopkg.in/gopro/go-jose.v1)
+[![godoc](http://img.shields.io/badge/godoc-version_2-blue.svg?style=flat)](https://godoc.org/gopkg.in/gopro/go-jose.v2)
 [![license](http://img.shields.io/badge/license-apache_2.0-blue.svg?style=flat)](https://raw.githubusercontent.com/square/go-jose/master/LICENSE)
 [![build](https://travis-ci.org/square/go-jose.svg?branch=master)](https://travis-ci.org/square/go-jose)
 [![coverage](https://coveralls.io/repos/github/square/go-jose/badge.svg?branch=master)](https://coveralls.io/r/square/go-jose)
@@ -40,24 +40,24 @@ libraries in other languages.
 
 We use [gopkg.in](https://gopkg.in) for versioning.
 
-[Version 1](https://gopkg.in/square/go-jose.v1) is the old stable version:
+[Version 1](https://gopkg.in/gopro/go-jose.v1) is the old stable version:
 
-    import "gopkg.in/square/go-jose.v1"
+    import "gopkg.in/gopro/go-jose.v1"
 
-[Version 2](https://gopkg.in/square/go-jose.v2) is for new development:
+[Version 2](https://gopkg.in/gopro/go-jose.v2) is for new development:
 
-    import "gopkg.in/square/go-jose.v2"
+    import "gopkg.in/gopro/go-jose.v2"
 
-The interface for [go-jose.v1](https://gopkg.in/square/go-jose.v1) will remain
+The interface for [go-jose.v1](https://gopkg.in/gopro/go-jose.v1) will remain
 backwards compatible. No new feature development will take place on the `v1` branch,
 however bug fixes and security fixes will be backported.
 
-The interface for [go-jose.v2](https://gopkg.in/square/go-jose.v2) is mostly
+The interface for [go-jose.v2](https://gopkg.in/gopro/go-jose.v2) is mostly
 stable, but we suggest pinning to a particular revision for now as we still reserve
 the right to make changes. New feature development happens on this branch.
 
-New in [go-jose.v2](https://gopkg.in/square/go-jose.v2) is a
-[jwt](https://godoc.org/gopkg.in/square/go-jose.v2/jwt) sub-package
+New in [go-jose.v2](https://gopkg.in/gopro/go-jose.v2) is a
+[jwt](https://godoc.org/gopkg.in/gopro/go-jose.v2/jwt) sub-package
 contributed by [@shaxbee](https://github.com/shaxbee).
 
 ### Supported algorithms
@@ -110,8 +110,8 @@ allows attaching a key id.
 
 ## Examples
 
-[![godoc](http://img.shields.io/badge/godoc-version_1-blue.svg?style=flat)](https://godoc.org/gopkg.in/square/go-jose.v1)
-[![godoc](http://img.shields.io/badge/godoc-version_2-blue.svg?style=flat)](https://godoc.org/gopkg.in/square/go-jose.v2)
+[![godoc](http://img.shields.io/badge/godoc-version_1-blue.svg?style=flat)](https://godoc.org/gopkg.in/gopro/go-jose.v1)
+[![godoc](http://img.shields.io/badge/godoc-version_2-blue.svg?style=flat)](https://godoc.org/gopkg.in/gopro/go-jose.v2)
 
 Examples can be found in the Godoc
 reference for this package. The
